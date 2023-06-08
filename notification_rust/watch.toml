@@ -1,0 +1,10 @@
+[[watch]]
+# Name of the watch command
+name = "Run application"
+# Command to run when files change
+command = "cargo run"
+# Files to watch for changes
+paths = ["src"]
+# Enable the command on startup
+# (optional, set to false if you don't want to run the command immediately)
+enable = true
